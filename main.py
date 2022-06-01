@@ -55,7 +55,8 @@ def compareMoves(player, cpu):
         print("It's a tie, rematch! \n")
         play_game()
     else:
-        print('You lose!')
+        print('You lose! Rematch \n')
+        play_game()
 
 
 play_game()
